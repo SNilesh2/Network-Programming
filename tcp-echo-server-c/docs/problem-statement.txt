@@ -1,0 +1,45 @@
+Mini Project: Echo Server
+
+Project Overview
+The objective of this project is to develop a simple Echo Server in C that returns the client's message along with the current timestamp and the number of messages bounced by the server so far. The intern will also develop a client program to interact with the server.
+
+Features
+Client-Server Communication: The server listens for messages from clients and sends back the same message.
+Timestamping: Each echoed message includes the current timestamp from the client.
+Message Counter: The server keeps track of the number of messages it has echoed and returns this count with each response.
+Multi-client Support (Optional): The server can handle multiple clients simultaneously using threading.
+
+
+Technologies Used
+Programming Language: C
+Networking: sockets 
+
+Implementation Details
+
+Echo Server:
+
+Listens for incoming client connections.
+Receives a message from the client.
+Returns the message with the current timestamp (sent by the client) and the total number of messages echoed so far.
+Uses a counter to track the total number of echoed messages.
+
+Client Program:
+
+Connects to the Echo Server using sockets.
+Sends messages to the server.
+Receives the echoed message, timestamp, and message count from the server.
+Displays the received response.
+
+Project Goals:
+
+Learn fundamental client-server networking using sockets in C.
+Implement a simple request-response mechanism.
+Gain experience in handling multiple client requests.
+
+Future Enhancements:
+
+Implement logging of client messages and timestamps on the server.
+Secure communication using encryption.
+This project provides hands-on experience with socket programming and real-time message processing.
+
+
